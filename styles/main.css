@@ -1,0 +1,28 @@
+img {
+    width: 500px;
+    height: auto;
+  }
+.main__header {
+    border: solid black 1px;
+    margin: 5px;
+}
+.fish__list {
+    border: dotted green 1px;
+    margin: 5px;
+}
+.quotes {
+    border: dotted blue 1px;
+    margin: 5px;
+}
+.fish__tips {
+    border: solid blueviolet 1px;
+    margin: 5px;
+}
+.harvest__locations {
+    border: solid purple 1px;
+    margin: 10px;
+}
+.main__footer {
+    border: solid silver 1px;
+    margin: 5px
+}
