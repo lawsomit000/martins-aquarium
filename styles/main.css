@@ -1,26 +1,78 @@
-img {
-    width: 500px;
-    height: auto;
-  }
-.main__header {
-    border: solid black 1px;
-    margin: 5px;
+header {  
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.logo {
+    max-height: 200px;
+    max-width: 200px;
+}
+.featured-fish {
+    border: dotted green 1px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap
+}
+.fish-and-aside {
+    display: flex;
+    flex-flow: row wrap;
+}
+.fish_details {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
 }
 .fish__list {
     border: dotted green 1px;
-    margin: 5px;
+    margin: 20px;
+    flex: 3;
 }
-.quotes {
-    border: dotted blue 1px;
-    margin: 5px;
+.fish__img {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
 }
-.fish__tips {
+.fish {
+    border: pink 1px solid;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.fish_tips {
+    float: right;
     border: solid blueviolet 1px;
     margin: 5px;
+    flex: 1;
+
 }
-.harvest__locations {
+.quotes_list {
+    border: dotted blue 1px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.quotes {
+    border: solid black 1px;
+    padding: 15px;
+}
+.quote {
+    list-style-type: none;
+    border: solid black 1px;
+    padding: 30px;
+    margin: 10px;
+}
+.harvest_locations {
     border: solid purple 1px;
     margin: 10px;
+}
+.locations {
+    border: 1px skyblue dotted;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 .main__footer {
     border: solid silver 1px;
