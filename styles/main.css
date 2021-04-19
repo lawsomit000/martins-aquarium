@@ -42,12 +42,21 @@ header {
     flex-flow: row wrap;
 }
 .fish_tips {
-    float: right;
     border: solid blueviolet 1px;
     margin: 5px;
     flex: 1;
-    text-align: ;
-
+    text-align: left;
+}
+.fish_tips_header {
+    text-align: center;
+}
+.fish_tips_list {
+    list-style-type: none;
+    text-align: center;
+}
+.fish_tip {
+    border: 1px black solid;
+    margin: 30px;
 }
 .quotes_list {
     border: dotted blue 1px;
