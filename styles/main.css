@@ -12,7 +12,8 @@ header {
     margin: 20px;
     padding: 20px;
     display: flex;
-    flex-flow: row wrap
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 .fish-and-aside {
     display: flex;
@@ -45,6 +46,7 @@ header {
     border: solid blueviolet 1px;
     margin: 5px;
     flex: 1;
+    text-align: ;
 
 }
 .quotes_list {
@@ -76,5 +78,9 @@ header {
 }
 .main__footer {
     border: solid silver 1px;
-    margin: 5px
+    margin: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
 }
